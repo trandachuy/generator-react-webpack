@@ -1,6 +1,6 @@
 name: Build ReactJS
 on: [push, pull_request, workflow_dispatch]
-job:
+jobs:
   build:
     name: Run build ReactJS
     runs-on: ubuntu-latest
